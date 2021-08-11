@@ -37,6 +37,8 @@
 
 		</section>
 
+		
+
 	<div class="container" style="text-align: center; margin-top: 5em;">
 	<!-- Image to be enlarged and onclick() function call-->
 	<img
@@ -69,6 +71,22 @@
 	</script>
 </body>
 </html>
+
+
+
+<div class="popup" id="popup-1">
+  <div class="overlay"></div>
+  <div class="content">
+    <div class="close-btn" onclick="togglePopup()">×</div>
+    <h1>Helpline</h1>
+    <p>BUPC DRRM- 09789661021</p>
+    <p>POLANGUI BFP- 09886710091</p>
+  </div>
+</div>
+ 
+<button onclick="togglePopup()">Show Popup</button>
+
+
 
 
 <script src="all.min.js">
